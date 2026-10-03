@@ -225,7 +225,7 @@ footer .f-links a:hover { color: #a78bfa; }
           <div class="hc-badge">COMPLETED</div>
         </div>
         <div class="hc-row"><span class="k">Service</span><span class="v">Platform Cashout</span></div>
-        <div class="hc-row"><span class="k">Source</span><span class="v">Stake.com winnings</span></div>
+        <div class="hc-row"><span class="k">Source</span><span class="v">Viagogo seller payout</span></div>
         <div class="hc-row"><span class="k">Payout</span><span class="v">USDC · Solana</span></div>
         <div class="hc-row"><span class="k">Processing</span><span class="v pos">23 minutes</span></div>
         <div class="hc-total"><span class="k">Client received</span><span class="v">$4,120</span></div>
@@ -263,7 +263,7 @@ footer .f-links a:hover { color: #a78bfa; }
       <div class="svc reveal">
         <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M17 8h1a4 4 0 1 1 0 8h-1M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V8z"/><line x1="6" y1="2" x2="6" y2="4"/><line x1="10" y1="2" x2="10" y2="4"/><line x1="14" y1="2" x2="14" y2="4"/></svg></div>
         <h3>Crypto Swaps</h3>
-        <p>USDC/USDT in, USDC/USDT or bank out. Most chains except BTC — SOL &amp; ETH are fastest.</p>
+        <p>USDC/USDT in, USDC/USDT or bank out. Most chains except BTC — SOL &amp; ETH are fastest. Casino winnings or creator payouts already in your wallet? We swap them to cash.</p>
         <div class="fee">10% FLAT — ALL IN</div>
       </div>
       <div class="svc reveal">
@@ -271,7 +271,7 @@ footer .f-links a:hover { color: #a78bfa; }
         <h3>Platform Cashouts</h3>
         <p>Selling on a platform? Get a dedicated banking setup — platform pays out, you receive USDC on Solana.</p>
         <div class="fee">10% FLAT — SAME DAY</div>
-        <div class="plats">Viagogo · StubHub · VividSeats · Lysted · Ticketmaster · AXS · OnlyFans · Fansly · YouTube · Kick · Twitch + more</div>
+        <div class="plats">Viagogo · StubHub · VividSeats · Lysted · Ticketmaster · AXS · eBay · Amazon + more on request</div>
       </div>
       <div class="svc reveal">
         <div class="svc-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
@@ -374,10 +374,10 @@ window.REVIEWS = [
 
 (function ticker() {
   const payouts = [
-    ["$1,250", "Stake.com", "USDC · SOL"], ["$2,400", "BC.GAME", "USDT · ETH"], ["$850", "Roobet", "USDC · SOL"],
-    ["$5,200", "Sportsbook", "Bank transfer"], ["$1,900", "Trading", "USDT · ETH"], ["$4,500", "Shuffle", "USDC · SOL"],
-    ["$6,100", "Viagogo payout", "USDC · SOL"], ["$1,100", "Betfury", "USDT · ETH"], ["$3,200", "OnlyFans payout", "USDC · SOL"],
-    ["$7,400", "OTC deal", "USDC · SOL"], ["$950", "Stake.com", "USDT · ETH"], ["$2,750", "Dice", "USDC · SOL"],
+    ["$1,250", "Viagogo seller", "USDC · SOL"], ["$2,400", "StubHub seller", "USDT · ETH"], ["$850", "eBay seller", "USDC · SOL"],
+    ["$5,200", "Amazon seller", "Bank transfer"], ["$1,900", "Trading", "USDT · ETH"], ["$4,500", "Lysted seller", "USDC · SOL"],
+    ["$6,100", "Viagogo seller", "USDC · SOL"], ["$1,100", "Ticketmaster", "USDT · ETH"], ["$3,200", "AXS payout", "USDC · SOL"],
+    ["$7,400", "OTC deal", "USDC · SOL"], ["$950", "Crypto swap", "USDT · ETH"], ["$2,750", "eBay seller", "USDC · SOL"],
   ];
   const items = payouts.map(p => '<span><b>' + p[0] + '</b> <span class="arrow">→</span> ' + p[1] + ' <span class="arrow">→</span> ' + p[2] + '</span>').join('');
   document.getElementById('ticker').innerHTML = items + items;
